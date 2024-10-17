@@ -6,15 +6,13 @@ html, body {
   justify-content: center;
   align-items: center;
   background-color: rgb(218, 8, 8);
+  
+  transform: scale(0.7);
+  transform-origin: 50% 50%;
 }
 
 canvas {
   display: block;
   margin: auto;
   border: 8px solid black;
-}
-
-div {
-  transform: scale(0.5); /* Scale down to 50% */
-  transform-origin: 50% 50%; /* Keep scaling centered */
 }
